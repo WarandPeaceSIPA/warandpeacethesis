@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dar Al Hekma University Logo Placeholder -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#grad1)" stroke="#6B3410" stroke-width="3"/>
+  
+  <!-- Book Symbol -->
+  <rect x="60" y="70" width="80" height="60" fill="#FFF" stroke="#8B4513" stroke-width="2" rx="3"/>
+  <line x1="100" y1="70" x2="100" y2="130" stroke="#8B4513" stroke-width="2"/>
+  <line x1="60" y1="85" x2="140" y2="85" stroke="#D2B48C" stroke-width="1"/>
+  <line x1="60" y1="95" x2="140" y2="95" stroke="#D2B48C" stroke-width="1"/>
+  <line x1="60" y1="105" x2="140" y2="105" stroke="#D2B48C" stroke-width="1"/>
+  <line x1="60" y1="115" x2="140" y2="115" stroke="#D2B48C" stroke-width="1"/>
+  
+  <!-- Star on top -->
+  <polygon points="100,45 105,55 115,55 107,62 110,72 100,65 90,72 93,62 85,55 95,55" fill="#FFD700" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Text -->
+  <text x="100" y="155" font-family="Arial" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">DAR AL HEKMA</text>
+  <text x="100" y="170" font-family="Arial" font-size="10" fill="#FFF" text-anchor="middle">UNIVERSITY</text>
+</svg>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشروط المعلوماتية لفاعلية القيد البنيوي | رسالة ماجستير</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <img src="logo.svg" alt="Dar Al Hekma University" class="university-logo" style="width: 50px; height: 50px;">
+                    <div class="text-xl font-bold" style="background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        <i class="fas fa-graduation-cap ml-2"></i>
+                        قيد البنيوي
+                    </div>
+                </div>
+                <div class="hidden md:flex gap-6">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">الرئيسية</a>
+                    <a href="#summary" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">الملخص</a>
+                    <a href="#framework" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">الإطار النظري</a>
+                    <a href="#papers" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">قاعدة البيانات</a>
+                    <a href="#chapters" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">الفصول</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-amber-700 font-semibold">تواصل</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="#home" class="block py-2 text-gray-700 hover:text-amber-700">الرئيسية</a>
+                <a href="#summary" class="block py-2 text-gray-700 hover:text-amber-700">الملخص</a>
+                <a href="#framework" class="block py-2 text-gray-700 hover:text-amber-700">الإطار النظري</a>
+                <a href="#papers" class="block py-2 text-gray-700 hover:text-amber-700">قاعدة البيانات</a>
+                <a href="#chapters" class="block py-2 text-gray-700 hover:text-amber-700">الفصول</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-amber-700">تواصل</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 text-white relative overflow-hidden" style="background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);">
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <div class="mb-8">
+                <img src="logo.svg" alt="Dar Al Hekma University" class="university-logo mx-auto" style="width: 150px; height: 150px;">
+            </div>
+            <h1 class="text-5xl md:text-6xl font-black mb-6 leading-tight">
+                الشروط المعلوماتية لفاعلية القيد البنيوي
+            </h1>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 opacity-90">
+                تقارب التوقعات وإمكان تحقق السلام
+            </h2>
+            <div class="text-2xl md:text-3xl mb-6 font-bold" style="color: #FFD700;">
+                <i class="fas fa-university ml-2"></i>
+                Dar Al Hekma University
+            </div>
+            <div class="text-xl md:text-2xl mb-4 font-semibold">
+                <i class="fas fa-user-graduate ml-2"></i>
+                الباحث: ALESSI, ZAHER
+            </div>
+            <div class="text-lg md:text-xl mb-8 opacity-90">
+                <i class="fas fa-chalkboard-teacher ml-2"></i>
+                المشرف: AL HARBI, SALEH
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <a href="#papers" class="px-8 py-4 bg-white rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl" style="color: #8B4513;">
+                    <i class="fas fa-database ml-2"></i>
+                    استكشف قاعدة البيانات
+                </a>
+                <a href="#summary" class="px-8 py-4 rounded-full font-bold text-lg text-white hover:opacity-90 transition-all hover:scale-105 shadow-xl" style="background: linear-gradient(135deg, #6B3410 0%, #8B4513 100%);">
+                    <i class="fas fa-book-open ml-2"></i>
+                    اقرأ الملخص التنفيذي
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="stat-card p-6 rounded-xl text-center hover-lift">
+                    <div class="text-4xl font-black mb-2">390+</div>
+                    <div class="text-lg opacity-90">ورقة أكاديمية</div>
+                </div>
+                <div class="stat-card p-6 rounded-xl text-center hover-lift">
+                    <div class="text-4xl font-black mb-2">7</div>
+                    <div class="text-lg opacity-90">فصول شاملة</div>
+                </div>
+                <div class="stat-card p-6 rounded-xl text-center hover-lift">
+                    <div class="text-4xl font-black mb-2">20,000+</div>
+                    <div class="text-lg opacity-90">كلمة</div>
+                </div>
+                <div class="stat-card p-6 rounded-xl text-center hover-lift">
+                    <div class="text-4xl font-black mb-2">4</div>
+                    <div class="text-lg opacity-90">مبرهنات رئيسية</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Summary -->
+    <section id="summary" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-12 text-gray-800 section-title">
+                <i class="fas fa-file-alt ml-3"></i>
+                الملخص التنفيذي
+            </h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 md:p-12">
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-xl leading-relaxed text-gray-700 mb-6">
+                        دراسة رائدة تدمج <strong class="text-#8B4513">الواقعية البنيوية</strong> مع <strong class="text-#8B4513">نظرية التعلم البايزي</strong> لتفسير لماذا تفشل القيود البنيوية أحياناً في منع الحروب الكارثية رغم وضوحها المادي.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-600 mb-6">
+                        تقدم الرسالة <strong>إطاراً نظرياً متكاملاً</strong> يربط معدلات تقارب التوقعات بفاعلية الردع الاستراتيجي.
+                    </p>
+                    <div class="bg-#F5E6D3 border-r-4 border-#8B4513 p-6 rounded-lg my-8">
+                        <h3 class="text-2xl font-bold text-#D2691E mb-4">
+                            <i class="fas fa-lightbulb ml-2"></i>
+                            الحجة المركزية
+                        </h3>
+                        <p class="text-lg text-gray-700">
+                            فاعلية القيود البنيوية في منع الحرب تعتمد بشكل حاسم على <strong>معدل تقارب التوقعات</strong> بين الدول المتنافسة، وليس فقط على وجود القيد ذاته.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theoretical Framework -->
+    <section id="framework" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-12 text-gray-800 section-title">
+                <i class="fas fa-project-diagram ml-3"></i>
+                الإطار النظري الرسمي
+            </h2>
+            <div class="max-w-5xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="theorem-box">
+                        <h4 class="text-xl font-bold mb-3">
+                            <i class="fas fa-square-root-alt ml-2"></i>
+                            المبرهنة 1: عدم كفاية التقارب المقارب
+                        </h4>
+                        <p class="text-gray-700">
+                            التقارب المقارب للتوقعات (Δₜ → 0) ضروري لكنه <strong>غير كافٍ</strong> لمنع الحرب. يجب أن يحدث التقارب بسرعة كافية قبل إغلاق نافذة الفرصة.
+                        </p>
+                    </div>
+                    <div class="theorem-box">
+                        <h4 class="text-xl font-bold mb-3">
+                            <i class="fas fa-chart-line ml-2"></i>
+                            المبرهنة 2: محددات معدل التقارب
+                        </h4>
+                        <p class="text-gray-700">
+                            معدل تقارب التوقعات يتناسب <strong>عكسياً</strong> مع تباين الإشارة (τ²) و<strong>طردياً</strong> مع عدم اليقين المسبق (σ²).
+                        </p>
+                    </div>
+                    <div class="theorem-box">
+                        <h4 class="text-xl font-bold mb-3">
+                            <i class="fas fa-balance-scale ml-2"></i>
+                            المبرهنة 3: العتبة الحرجة
+                        </h4>
+                        <p class="text-gray-700">
+                            يوجد <strong>تباين حرج (δ)</strong> تحته تصبح الحرب غير عقلانية. إذا بقي Δₜ > δ، تظل الحرب خياراً مغرياً رغم القيد البنيوي.
+                        </p>
+                    </div>
+                    <div class="theorem-box">
+                        <h4 class="text-xl font-bold mb-3">
+                            <i class="fas fa-chess ml-2"></i>
+                            المبرهنة 4: اختيار التوازن
+                        </h4>
+                        <p class="text-gray-700">
+                            في لعبة المساومة مع معلومات خاصة، <strong>سرعة التعلم</strong> تحدد أي توازن سيتحقق (سلمي أم حربي).
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Convergence Chart -->
+                <div class="bg-white rounded-2xl shadow-xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+                        <i class="fas fa-chart-area ml-2"></i>
+                        رسم بياني: معدل تقارب التوقعات
+                    </h3>
+                    <canvas id="convergenceChart" class="w-full" style="max-height: 400px;"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers Database -->
+    <section id="papers" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-12 text-gray-800 section-title">
+                <i class="fas fa-database ml-3"></i>
+                قاعدة البيانات الأكاديمية
+            </h2>
+            
+            <!-- Search and Filters -->
+            <div class="max-w-6xl mx-auto mb-8">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div class="md:col-span-2">
+                            <div class="flex gap-2">
+                                <input type="text" id="searchInput" placeholder="ابحث في العنوان، المؤلف، الملخص..." 
+                                       class="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-#8B4513 focus:outline-none">
+                                <button id="searchBtn" class="px-6 py-3 bg-#8B4513 text-white rounded-lg font-bold hover:bg-#6B3410 transition-colors">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <select id="yearFilter" class="px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-#8B4513 focus:outline-none">
+                            <option value="">كل السنوات</option>
+                            <option value="2020-2024">2020-2024</option>
+                            <option value="2015-2019">2015-2019</option>
+                            <option value="2010-2014">2010-2014</option>
+                            <option value="2000-2009">2000-2009</option>
+                        </select>
+                        <select id="sortFilter" class="px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-#8B4513 focus:outline-none">
+                            <option value="relevance">الأكثر صلة</option>
+                            <option value="citations">الأكثر استشهاداً</option>
+                            <option value="year-desc">الأحدث</option>
+                            <option value="year-asc">الأقدم</option>
+                        </select>
+                    </div>
+                    <div class="flex justify-between items-center mt-4">
+                        <div id="papersCount" class="text-gray-600 font-semibold"></div>
+                        <button id="resetFilters" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors">
+                            <i class="fas fa-redo ml-1"></i>
+                            إعادة تعيين
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Papers List -->
+            <div id="papersList" class="max-w-6xl mx-auto space-y-6 mb-8">
+                <!-- Papers will be loaded here by JavaScript -->
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="flex justify-center gap-2 flex-wrap">
+                <!-- Pagination will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapters Section -->
+    <section id="chapters" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-12 text-gray-800 section-title">
+                <i class="fas fa-book ml-3"></i>
+                فصول الرسالة
+            </h2>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="chapter-card bg-gradient-to-br from-#F5E6D3 to-#FAF0E6 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-#8B4513 mb-3">01</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">المقدمة</h3>
+                    <p class="text-gray-600">اللغز النظري، السؤال البحثي، الحجة المركزية، الأهمية النظرية والسياساتية</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-blue-600 mb-3">02</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">مراجعة الأدبيات</h3>
+                    <p class="text-gray-600">الواقعية البنيوية، نظريات المساومة، التعلم البايزي، تقارب التوقعات</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-green-600 mb-3">03</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">الإطار النظري</h3>
+                    <p class="text-gray-600">النموذج الرسمي، المبرهنات الأربع، الفرضيات القابلة للاختبار</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-yellow-600 mb-3">04</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">المنهجية</h3>
+                    <p class="text-gray-600">التصميم المختلط، البيانات والمتغيرات، استراتيجية التحديد السببي</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-red-600 mb-3">05</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">التطبيقات السياساتية</h3>
+                    <p class="text-gray-600">الصين-أمريكا، روسيا-الناتو، إيران، كوريا الشمالية</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-xl shadow-lg">
+                    <div class="text-4xl font-black text-pink-600 mb-3">06</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">دراسات الحالة</h3>
+                    <p class="text-gray-600">الحرب العالمية الأولى، أزمة الصواريخ، أوكرانيا 2022</p>
+                </div>
+                <div class="chapter-card bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-xl shadow-lg md:col-span-2">
+                    <div class="text-4xl font-black text-indigo-600 mb-3">07</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">الخاتمة</h3>
+                    <p class="text-gray-600">ملخص النتائج، المساهمات النظرية، التداعيات السياساتية، البحوث المستقبلية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-#8B4513 to-#D2691E">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-black text-white mb-4">
+                    <i class="fas fa-envelope ml-3"></i>
+                    التواصل
+                </h2>
+                <p class="text-xl text-white opacity-90">للاستفسارات الأكاديمية والتعاون البحثي</p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-2xl p-8">
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4 p-4 bg-#F5E6D3 rounded-lg hover:bg-#FAF0E6 transition-colors">
+                        <div class="bg-#8B4513 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-user-graduate text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-gray-600 text-sm font-semibold">الباحث: ALESSI, ZAHER</p>
+                            <a href="mailto:zmalessi@dah.edu.sa" class="text-#8B4513 font-bold text-lg hover:underline break-all">
+                                zmalessi@dah.edu.sa
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-4 p-4 bg-#F5E6D3 rounded-lg hover:bg-#FAF0E6 transition-colors">
+                        <div class="bg-#8B4513 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-chalkboard-teacher text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-gray-600 text-sm font-semibold">المشرف: AL HARBI, SALEH</p>
+                            <a href="mailto:sharbi@dah.edu.sa" class="text-#8B4513 font-bold text-lg hover:underline break-all">
+                                sharbi@dah.edu.sa
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400 mb-4">
+                <i class="fas fa-university ml-2"></i>
+                Dar Al Hekma University - رسالة ماجستير في العلاقات الدولية - 2026
+            </p>
+            <p class="text-gray-400 mb-4">
+                <strong>الباحث:</strong> ALESSI, ZAHER | 
+                <strong>المشرف:</strong> AL HARBI, SALEH
+            </p>
+            <p class="text-gray-500 text-sm">
+                © 2026 جميع الحقوق محفوظة
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

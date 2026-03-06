@@ -1,0 +1,69 @@
+{
+  "name": "الشروط المعلوماتية لفاعلية القيد البنيوي",
+  "short_name": "War & Peace Thesis",
+  "description": "رسالة ماجستير في العلاقات الدولية - جامعة دار الحكمة",
+  "start_url": "/warandpeacethesis/",
+  "scope": "/warandpeacethesis/",
+  "display": "standalone",
+  "background_color": "#8B4513",
+  "theme_color": "#8B4513",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["education", "research", "academic"],
+  "lang": "ar",
+  "dir": "rtl",
+  "shortcuts": [
+    {
+      "name": "قاعدة البيانات",
+      "short_name": "البيانات",
+      "description": "الوصول المباشر إلى قاعدة البيانات الأكاديمية",
+      "url": "/warandpeacethesis/#papers",
+      "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "الملخص التنفيذي",
+      "short_name": "الملخص",
+      "description": "قراءة الملخص التنفيذي للرسالة",
+      "url": "/warandpeacethesis/#summary",
+      "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "الفصول",
+      "short_name": "الفصول",
+      "description": "استعراض فصول الرسالة",
+      "url": "/warandpeacethesis/#chapters",
+      "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "logo.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    },
+    {
+      "src": "logo.svg",
+      "sizes": "750x1334",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}

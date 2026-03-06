@@ -1,0 +1,15 @@
+# robots.txt for War and Peace Thesis Website
+# https://warandpeacesipa.github.io/warandpeacethesis/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://warandpeacesipa.github.io/warandpeacethesis/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
+# Disallow specific files (if any)
+# Disallow: /private/
+# Disallow: /temp/

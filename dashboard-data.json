@@ -1,0 +1,136 @@
+{
+  "thesis": {
+    "title": "الشروط المعلوماتية لفاعلية القيد البنيوي: تقارب التوقعات وإمكان تحقق السلام",
+    "titleEn": "Informational Conditions for Structural Constraint Effectiveness: Expectation Convergence and Peace Feasibility",
+    "researcher": "ALESSI, ZAHER",
+    "supervisor": "AL HARBI, SALEH",
+    "university": "Dar Al Hekma University",
+    "year": 2026
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "المقدمة والإطار النظري",
+      "titleEn": "Introduction and Theoretical Framework",
+      "pages": 45,
+      "citations": 89,
+      "keywords": ["البنيوية الواقعية", "نظرية المعلومات", "التعلم البايزي"],
+      "keywordsEn": ["Structural Realism", "Information Theory", "Bayesian Learning"],
+      "progress": 100
+    },
+    {
+      "id": 2,
+      "title": "القيد البنيوي في العلاقات الدولية",
+      "titleEn": "Structural Constraint in International Relations",
+      "pages": 52,
+      "citations": 112,
+      "keywords": ["القوة النسبية", "التوازن الإقليمي", "الأنظمة الدولية"],
+      "keywordsEn": ["Relative Power", "Regional Balance", "International Systems"],
+      "progress": 100
+    },
+    {
+      "id": 3,
+      "title": "الشروط المعلوماتية للفاعلية",
+      "titleEn": "Informational Conditions for Effectiveness",
+      "pages": 48,
+      "citations": 95,
+      "keywords": ["عدم التماثل المعلوماتي", "الإشارات", "الشفافية"],
+      "keywordsEn": ["Information Asymmetry", "Signaling", "Transparency"],
+      "progress": 100
+    },
+    {
+      "id": 4,
+      "title": "تقارب التوقعات والتعلم الاستراتيجي",
+      "titleEn": "Expectation Convergence and Strategic Learning",
+      "pages": 55,
+      "citations": 103,
+      "keywords": ["التعلم البايزي", "تحديث المعتقدات", "التوقعات المتبادلة"],
+      "keywordsEn": ["Bayesian Learning", "Belief Updating", "Mutual Expectations"],
+      "progress": 100
+    },
+    {
+      "id": 5,
+      "title": "دراسات حالة تطبيقية",
+      "titleEn": "Applied Case Studies",
+      "pages": 67,
+      "citations": 78,
+      "keywords": ["الشرق الأوسط", "الحرب الباردة", "النزاعات الإقليمية"],
+      "keywordsEn": ["Middle East", "Cold War", "Regional Conflicts"],
+      "progress": 95
+    },
+    {
+      "id": 6,
+      "title": "التحليل المقارن والنتائج",
+      "titleEn": "Comparative Analysis and Results",
+      "pages": 43,
+      "citations": 67,
+      "keywords": ["التحليل الكمي", "النماذج الرياضية", "الاستنتاجات"],
+      "keywordsEn": ["Quantitative Analysis", "Mathematical Models", "Conclusions"],
+      "progress": 90
+    },
+    {
+      "id": 7,
+      "title": "الخاتمة والتوصيات",
+      "titleEn": "Conclusion and Recommendations",
+      "pages": 38,
+      "citations": 45,
+      "keywords": ["السياسات العامة", "البحث المستقبلي", "التطبيقات العملية"],
+      "keywordsEn": ["Public Policy", "Future Research", "Practical Applications"],
+      "progress": 85
+    }
+  ],
+  "citationsByYear": [
+    {"year": 2015, "count": 23},
+    {"year": 2016, "count": 31},
+    {"year": 2017, "count": 45},
+    {"year": 2018, "count": 58},
+    {"year": 2019, "count": 72},
+    {"year": 2020, "count": 89},
+    {"year": 2021, "count": 95},
+    {"year": 2022, "count": 103},
+    {"year": 2023, "count": 87},
+    {"year": 2024, "count": 56},
+    {"year": 2025, "count": 30}
+  ],
+  "topAuthors": [
+    {"name": "Kenneth Waltz", "citations": 45},
+    {"name": "Robert Jervis", "citations": 38},
+    {"name": "James Fearon", "citations": 32},
+    {"name": "Thomas Schelling", "citations": 28},
+    {"name": "Robert Powell", "citations": 25},
+    {"name": "John Mearsheimer", "citations": 23},
+    {"name": "Alexander Wendt", "citations": 21},
+    {"name": "Stephen Walt", "citations": 19},
+    {"name": "Robert Keohane", "citations": 17},
+    {"name": "Joseph Nye", "citations": 15}
+  ],
+  "theoreticalFrameworks": [
+    {"name": "البنيوية الواقعية", "nameEn": "Structural Realism", "percentage": 35},
+    {"name": "نظرية المعلومات", "nameEn": "Information Theory", "percentage": 28},
+    {"name": "نظرية الألعاب", "nameEn": "Game Theory", "percentage": 18},
+    {"name": "المؤسساتية الجديدة", "nameEn": "Neoinstitutionalism", "percentage": 12},
+    {"name": "البنائية", "nameEn": "Constructivism", "percentage": 7}
+  ],
+  "researchMethods": [
+    {"method": "التحليل النظري", "methodEn": "Theoretical Analysis", "percentage": 40},
+    {"method": "دراسات الحالة", "methodEn": "Case Studies", "percentage": 30},
+    {"method": "النمذجة الرياضية", "methodEn": "Mathematical Modeling", "percentage": 20},
+    {"method": "التحليل الكمي", "methodEn": "Quantitative Analysis", "percentage": 10}
+  ],
+  "timeline": [
+    {"phase": "مراجعة الأدبيات", "phaseEn": "Literature Review", "start": "2024-01", "end": "2024-04", "status": "completed"},
+    {"phase": "الإطار النظري", "phaseEn": "Theoretical Framework", "start": "2024-04", "end": "2024-07", "status": "completed"},
+    {"phase": "جمع البيانات", "phaseEn": "Data Collection", "start": "2024-07", "end": "2024-10", "status": "completed"},
+    {"phase": "التحليل والكتابة", "phaseEn": "Analysis and Writing", "start": "2024-10", "end": "2025-03", "status": "completed"},
+    {"phase": "المراجعة النهائية", "phaseEn": "Final Review", "start": "2025-03", "end": "2025-06", "status": "in-progress"},
+    {"phase": "الدفاع", "phaseEn": "Defense", "start": "2025-06", "end": "2025-07", "status": "pending"}
+  ],
+  "statistics": {
+    "totalPages": 348,
+    "totalCitations": 589,
+    "totalReferences": 245,
+    "uniqueAuthors": 187,
+    "averageCitationsPerChapter": 84,
+    "researchDuration": 18
+  }
+}
