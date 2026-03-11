@@ -184,7 +184,7 @@
                 opacity: 1;
             }
         }
-    </style>
+
     </style>
     <!-- Theme System CSS -->
     </head>
@@ -976,14 +976,10 @@
         }
         
         // Show/Hide Back to Top Button
-        window.addEventListener('scroll', function() {
-            const backToTop = document.getElementById('backToTop');
-            if (window.scrollY > 300) {
-                backToTop.style.opacity = '1';
-                backToTop.style.pointerEvents = 'auto';
-            } else {
-                backToTop.style.opacity = '0';
-                backToTop.style.pointerEvents = 'none';
+        window.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('copyrightModal');
+            if(localStorage.getItem("copyrightAccepted") !== "true"){
+                modal.classList.add("active");
             }
         });
         
